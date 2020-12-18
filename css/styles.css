@@ -1,0 +1,446 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #000000;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'orbitronlight';
+    src: url('orbitron-light-webfont.woff2') format('woff2'),
+         url('orbitron-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'orbitronmedium';
+    src: url('orbitron-medium-webfont.woff2') format('woff2'),
+         url('orbitron-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'de_valenciaregular';
+    src: url('de_valencia_beta-webfont.woff2') format('woff2'),
+         url('de_valencia_beta-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+  height: 399px;
+}
+
+.business-name {
+  color: #656574;
+  width: 202px;
+  height: 21px;
+  position: relative;
+  left: 38px;
+}
+
+.navigation {
+  text-shadow: 0 0 5px #6885e9, 0 0 10px #6885e9, 0 0 15px #6885e9, 0 0 20px #6885e9, 0 0 25px #6885e9, 0 0 30px #6885e9,
+  0 0 35px #6885e9;
+}
+
+.opening {
+  position: relative;
+  top: 75px;
+}
+
+.video {
+  width: 1262px;
+  height: 320px;
+  object-fit: none;
+}
+
+.name {
+  font-family: 'de_valenciaregular';
+  font-size: 55px;
+  width: 590px;
+  height: 59px;
+  color: #b1b1b1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+main {
+  position: relative;
+  top: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intention-section {
+  position: relative;
+  bottom: 123px;
+}
+
+.skills-section {
+  position: relative;
+  bottom: 148px;
+}
+
+.the-way-section {
+  position: relative;
+  bottom: 153px;
+}
+
+.contact-section {
+  position: relative;
+  bottom: 158px;
+}
+
+.intention-container {
+  width: 1000px;
+  height: 1222px;
+  position: relative;
+  bottom: 5px;
+  font-family: 'orbitronlight';
+}
+
+.intention {
+  font-size: 135px;
+  color: #656574;
+  letter-spacing: 3px;
+  position: absolute;
+  top: -90px;
+  left: -69px;
+}
+
+.desktop-computer-image {
+  width: 1000px;
+  height: 575px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.capabilities {
+  font-size: 45px;
+  color: #656574;
+  text-align: center;
+  position: relative;
+  top: 619px;
+}
+
+.skills-container {
+  width: 1000px;
+  height: 795px;
+  border-radius: 10px;
+  background-color: #272323;
+  position: relative;
+  bottom: 115px;
+  font-family: 'orbitronlight';
+}
+
+.skills {
+  font-size: 135px;
+  color: #656574;
+  position: absolute;
+  top: -90px;
+  left: -69px;
+}
+
+.notification {
+  font-size: 45px;
+  color: #656574;
+  width: 885px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.skill-bar {
+  width: 885px;
+  height: 308.48px;
+  padding-left: 0;
+  color: #656574;
+  position: absolute;
+  top: 315px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.skill {
+  margin-top: 18.720px;
+  margin-bottom: 18.720px;
+}
+
+.percentage {
+  font-family: 'ralewayregular';
+  position: absolute;
+  right: 0;
+}
+
+.bar {
+  width: 872px;
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border:  1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #6885e9;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #6885e9;
+}
+
+.html {
+  width: 75%;
+  animation: html 2s;
+}
+
+.css {
+  width: 75%;
+  animation: css 2s;
+}
+
+.bootstrap {
+  width: 45%;
+  animation: bootstrap 2s;
+}
+
+.photoshop {
+  width: 15%;
+  animation: photoshop 2s;
+}
+
+.web-design {
+  width: 75%;
+  animation: web-design 2s;
+}
+
+@keyframes html {
+  0%{
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes bootstrap {
+  0%{
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+@keyframes photoshop {
+  0%{
+    width: 0;
+  }
+  100% {
+    width: 15%;
+  }
+}
+
+@keyframes web-design {
+  0%{
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.the-way-container {
+  width: 1000px;
+  height: 2415px;
+  border-radius: 10px;
+  background-color: #272323;
+  position: relative;
+  bottom: 120px;
+  font-family: 'orbitronlight';
+}
+
+.the-way {
+  font-size: 135px;
+  color: #656574;
+  position: absolute;
+  top: -90px;
+  left: -69px;
+}
+
+.abilities {
+  font-size: 45px;
+  color: #656574;
+  width: 885px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 413.75px 413.75px;
+  grid-template-rows: 605px 550px 635px;
+  justify-content: space-evenly;
+  color: #656574;
+  position: relative;
+  top: 185px;
+}
+
+.ability-container {
+  font-size: 30px;
+}
+
+.ability-image img {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.ability-image {
+  width: 413.75px;
+  height: 276.75px;
+  overflow: hidden;
+}
+
+.ability-image img:hover {
+  transform: scale(1);
+}
+
+.ability {
+  font-family: 'orbitronmedium';
+  display: block;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.operation {
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.contact-container {
+  width: 1000px;
+  height: 783px;
+  border-radius: 10px;
+  background-color: #272323;
+  position: relative;
+  bottom: 125px;
+  font-family: 'orbitronlight';
+}
+
+.contact {
+  font-size: 135px;
+  color: #656574;
+  position: absolute;
+  top: -90px;
+  left: -69px;
+}
+
+.contact-notification {
+  font-size: 45px;
+  color: #656574;
+  letter-spacing: 3px;
+  width: 883px;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 57.5px;
+  color: #656574;
+  position: relative;
+  top: 110px;
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+label {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #656574;
+  color: #000000;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  transition: 0.5s;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: #656574;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px
+  #ffffff, 0 0 35px #ffffff;
+  transition: 0.5s;
+}
+
+.link-container {
+  width: 354px;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 131.5px;
+  margin-bottom: 40px;
+}
